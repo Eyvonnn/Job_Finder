@@ -62,7 +62,41 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
+
+
     </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Finder"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/postJobButton"
+        android:layout_width="222dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:onClick="onPostJobClick"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="Post a Job" />
+
+    <Button
+        android:id="@+id/findJobButton"
+        android:layout_width="222dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:onClick="onFindJobClick"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="Find a Job" />
 </LinearLayout>
+
 
 </layout>
